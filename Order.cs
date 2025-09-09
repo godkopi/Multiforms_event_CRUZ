@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Multiforms_event_CRUZ
 {
-    public partial class Customer : Form
+    public partial class Order : Form
     {
-        public Customer()
+        public Order()
         {
             InitializeComponent();
-            UI.Roundcorner(panel1, 30);
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Order order = new Order();
-            order.Show();
-            this.Hide();
+            UI.Roundcorner(panel1, 30);
+            UI.Roundcorner(panel2, 30);
         }
     }
 }
