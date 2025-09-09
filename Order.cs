@@ -18,6 +18,7 @@ namespace Multiforms_event_CRUZ
 
             UI.Roundcorner(panel1, 30);
             UI.Roundcorner(panel2, 30);
+            UI.Roundcorner(panel3, 30);
         }
     }
 }

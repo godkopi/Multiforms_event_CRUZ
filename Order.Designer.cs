@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Order));
             panel1 = new Panel();
-            panel2 = new Panel();
             panel3 = new Panel();
+            panel2 = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -46,6 +46,14 @@
             panel1.Size = new Size(776, 536);
             panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.FromArgb(255, 192, 192);
+            panel3.Location = new Point(436, 36);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(280, 464);
+            panel3.TabIndex = 0;
+            // 
             // panel2
             // 
             panel2.BackColor = SystemColors.ActiveBorder;
@@ -53,13 +61,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(280, 480);
             panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            panel3.Location = new Point(456, 36);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(280, 464);
-            panel3.TabIndex = 0;
             // 
             // Order
             // 
