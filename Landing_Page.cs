@@ -12,7 +12,7 @@ namespace Multiforms_event_CRUZ
             button1.Paint += RoundButton;
         }
 
-        private void RoundButton(object sender, PaintEventArgs e)
+        public void RoundButton(object sender, PaintEventArgs e)
         {
             int radius = 30;
             Button btn = sender as Button;
@@ -37,6 +37,13 @@ namespace Multiforms_event_CRUZ
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Customer customer = new Customer();
+            customer.Show();
+            this.Hide();
         }
     }
 }

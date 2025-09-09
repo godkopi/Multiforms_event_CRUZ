@@ -1,6 +1,6 @@
 ﻿namespace Multiforms_event_CRUZ
 {
-    partial class Form1
+    partial class Customer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            panel1 = new Panel();
             SuspendLayout();
             // 
-            // textBox1
+            // panel1
             // 
-            textBox1.Location = new Point(704, 72);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(264, 420);
-            textBox1.TabIndex = 0;
+            panel1.BackColor = SystemColors.ActiveBorder;
+            panel1.Location = new Point(76, 72);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(824, 432);
+            panel1.TabIndex = 0;
             // 
-            // Form1
+            // Customer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 594);
-            Controls.Add(textBox1);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(panel1);
+            Name = "Customer";
+            Text = "Customer";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
+        private Panel panel1;
     }
 }

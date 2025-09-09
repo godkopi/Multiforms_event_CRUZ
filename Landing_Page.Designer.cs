@@ -45,6 +45,7 @@
             button1.TabStop = false;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Landing_Page
             // 
