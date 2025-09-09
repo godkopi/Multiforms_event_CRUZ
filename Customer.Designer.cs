@@ -123,7 +123,7 @@
             button1.Size = new Size(133, 49);
             button1.TabIndex = 2;
             button1.TabStop = false;
-            button1.Text = "button1";
+            button1.Text = "Proceed";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
