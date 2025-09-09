@@ -21,25 +21,8 @@ namespace Multiforms_event_CRUZ
 
             ctrl.Region = new Region(path);
         }
-        
-        public static void Price(String[] args)
-        {
-            int[,] frappe =
-            {
-                { 130, 145, 155 },  // Mocha
-                { 140, 155, 165 },  // Cappuccino
-                { 140, 155, 165 },  // Coffee Jelly
-                { 145, 160, 170 }   // Java Chip
-            };
-            int[,] hotbev =
-{
-                { 120, 130, 140 },  // Mocha
-                { 120, 140, 150 },  // Cappuccino
-                { 135, 145, 155 },  // Coffee Jelly
-                { 140, 150, 160 }   // Java Chip
-            };
-            string[] sizes = { "Tall", "Grande", "Venti" };
-
-        }
+        public static string Name { get; set; }
+        public static string Type { get; set; }
+        public static DateTime Date { get; set; }
     }
 }

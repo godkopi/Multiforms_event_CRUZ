@@ -17,12 +17,26 @@ namespace Multiforms_event_CRUZ
         {
             InitializeComponent();
             UI.Roundcorner(panel1, 30);
+            UI.Roundcorner(button1, 30);
+            cb_ct.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+   
+            if (txt_name.Text == "" || cb_ct.SelectedIndex == 0)
+            {
+                MessageBox.Show("Please enter your name and select customer type.");
+                return;
+            }
+
+            UI.Name = txt_name.Text;
+            UI.Type = cb_ct.Text;
+            UI.Date = DateTime.Now;
+
             Order order = new Order();
             order.Show();
+
             this.Hide();
         }
     }

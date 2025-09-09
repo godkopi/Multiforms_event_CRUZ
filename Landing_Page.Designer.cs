@@ -64,6 +64,7 @@
         }
 
         #endregion
-        private Button button1;
+
+        public Button button1;
     }
 }
